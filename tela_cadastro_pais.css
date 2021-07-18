@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+}
+
+.incio{
+text-align: center;
+color: rgb(20, 15, 15);
+font: oblique;
+font-size: medium;
+}
+
+.dados_pais{
+    text-align: center;
+    color: grey;
+}
+
+hr{
+    width: 14%;
+    text-align: left;
+    margin-left: 17cm;
+}
+
+form{
+    margin: 0 auto;
+	width: 9%;
+}
+
+.botao1{
+    background-color:white;
+    color: orange;
+    margin: 0 auto;
+}
+
+.botao2{
+    background-color: orangered;
+    color: white;
+    display: 10%;
+}
