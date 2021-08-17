@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Icons/hospital.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/luisarthur_senhasupervisor.css">
+    <title>Senha Supervisor</title>
+</head>
+<body>
+    
+    <div class="navegation">
+      
+        <ul>
+           
+            <nav></nav>
+            <h2>Nome Sobrenome</h2>
+            <p>Cargo</p>
+
+        <li class="">
+            <a href="#">
+                <button class="bmenu">
+                    <span class="material-icons">people</span>
+                    Gerenciar Usuário
+                </button>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="#">       
+              <button class="bmenu">
+                <span class="material-icons-round">
+                    location_on
+                    </span>
+                        Gerenciar Unidade
+              </button>
+            </a>
+
+        <li class="">
+            <a href="#">       
+              <button class="bmenu">
+              <span class="material-icons">contact_page</span>
+                        Gerenciar Vacinação
+              </button>
+            </a>
+        </li>
+
+    
+        <li class="">
+            <a href="#">
+                <button class="bmenu">
+                    <span class="material-icons">assessment</span>
+                    Painel de relatório
+                </button>
+            </a>
+        </li>
+        <li class="list">
+            <a href="#">
+                <button class="bmenu">
+                    <span class="material-icons">account_circle</span>
+                    Perfil
+                </button>
+            </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="formulario" > 
+        <form>
+
+            <div class="f1">
+                    <label for="name">Redefinir Senha</label>
+            </div>
+
+            <div class="f2">
+                    <label for="name">Insira a nova senha abaixo.</label>
+            </div>
+
+            <div class="campo1" >
+                <label class="senha"  for="Senha">Senha</label1>
+                <input type="password" id="Senha" placeholder="Digite a Senha">
+            </div>
+
+            <div class="campo2" >
+                <label class="confirmar" for="Comfirmar">Confirmar</label>
+                <input type="password" id="Confirmar" placeholder="Repita a Senha">
+            </div>
+
+            <div>
+                <button class="b1">Voltar</button>
+                <button class="b2" >Salvar</button> 
+            </div>
+        </form>   
+        <a href="#abrirModal" title="Abrir">teste</a>
+        <section id="abrirModal" class="modal">
+            <span class="material-icons-outlined"> 
+            check_circle
+            </span>
+            <a href="#fechar" title="Fechar" class="fechar"><button class="b3">Finalizar</button></a>
+            <p class="tmodal">Senha alterada com sucesso!</p>
+        </section>   
+        
+</body>
+</html>
